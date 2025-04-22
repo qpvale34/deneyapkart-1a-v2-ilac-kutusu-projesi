@@ -1,0 +1,14 @@
+[wokwi]
+version = 1
+firmware = ".pio/build/deneyapkart1Av2/firmware.bin"
+elf = ".pio/build/deneyapkart1Av2/firmware.elf"
+
+# Simülasyon ayarları
+[wokwi.cli]
+frequency = 16000000  # 16 MHz işlemci hızı
+timeout = 300         # 300 saniye simülasyon süresi
+
+# ESP32 için özel ayarlar
+[wokwi.chip]
+name = "esp32-s3"     # Deneyapkart'ın ESP32-S3 çipi için
+frequency = "240MHz"  # ESP32-S3 çalışma frekansı
