@@ -12,3 +12,8 @@ web arayüzüyle ilaç saati ayarlama
 ilaç saati geldiğinde led ışık - buzzer senkronize çalışıp melodi çalar. 
 oled ekranda da vakti gelen ilacın adı yanıp söner.
 -----------------------------------------------------------------
+WEB arayüzü adresini öğrenmek için :
+karta upload ederken platformio nun big buttons kısmındaki -
+"upload & open serial monitor " buttonuyla yükleyin . 
+yüklendikten sonra terminalde web arayüz adresi görünecektir.
+-----------------------------------------------------------------
